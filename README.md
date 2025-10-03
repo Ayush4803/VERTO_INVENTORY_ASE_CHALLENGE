@@ -23,7 +23,7 @@ It supports full CRUD operations and includes inventory management endpoints to 
 ### **Steps**
 1. **Clone the repository:**
 ```bash
-git clone <repo-url>
+git clone https://github.com/Ayush4803/VERTO_INVENTORY_ASE_CHALLENGE
 cd ASE_VERTO
 ```
 2. **Install dependencies:**
