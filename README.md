@@ -23,14 +23,14 @@ It supports full CRUD operations and includes inventory management endpoints to 
 ### **Steps**
 1. **Clone the repository:**
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd ASE_VERTO
 ```
 2. **Install dependencies:**
 ```bash
 npm install
 ```
-3. ***Database Configuration:**
+3. **Database Configuration:**
 
 - Database connection details are configured in your config files (e.g., config/config.json for Sequelize).
 
@@ -50,22 +50,22 @@ npm install
 ```
 
 
-4. ***Run database migrations (if using Sequelize CLI):**
+4. **Run database migrations (if using Sequelize CLI):**
 ```bash
 npx sequelize-cli db:migrate
 ```
 
-5. ***Seed the database (optional):**
+5. **Seed the database (optional):**
 ```bash
 npx sequelize-cli db:seed:all
 ```
 
-6. ***Start the server:**
+6. **Start the server:**
 ```bash
 npm run dev
 ```
 
-7. ***Verify server:**
+7. **Verify server:**
 - Open your browser or Postman and visit:
 ```bash
 http://localhost:4000/
